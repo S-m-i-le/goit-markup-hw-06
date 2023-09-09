@@ -445,7 +445,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.email-and-button {
+
+/* ----FOOTER-EMAIL------ */
+.footer-email-form {
   display: flex;
   gap: 24px;
 }
@@ -455,10 +457,15 @@ img {
   border-radius: 4px;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
-  color: #fff;
+  background-color: transparent; 
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  padding-left: 16px; 
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+ color: #ffffff; 
 }
-input::placeholder {
+.email ::placeholder {
   color: #fff;
   font-size: 12px;
   font-weight: 400;
@@ -470,8 +477,12 @@ input::placeholder {
   padding-bottom: 8px;
 }
 .button {
+  min-width:165px;
+  height: 40px;
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
@@ -482,6 +493,10 @@ input::placeholder {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 8px 24px;
+}
+.footer-button-icon{
+  margin-left: 16px;
+  fill: #fff;
 }
 /* ------------------------------- */
 
