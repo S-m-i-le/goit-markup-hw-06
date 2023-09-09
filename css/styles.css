@@ -538,7 +538,7 @@ img {
    0px 1px 3px rgba(0, 0, 0, 0.12), 
    0px 2px 1px rgba(0, 0, 0, 0.2); 
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 }
 .modal-window-p {
   color: #2e2f42;
@@ -546,7 +546,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 48px;
   margin-bottom: 16px;
 }
 .window-user {
