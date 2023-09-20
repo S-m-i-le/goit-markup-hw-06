@@ -8,4 +8,6 @@
 @import"./sections/team.css";
 @import"./sections/portfolio.css";
 
+@import"./sections/footer.css";
+
 @import "./mobile-window-menu/mobile-window-and-menu.css";

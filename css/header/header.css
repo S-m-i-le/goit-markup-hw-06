@@ -94,6 +94,8 @@
 .button-burger{
   display: none;
 }
+/* ============================= */
+
 /* MOBILE version */
 
 @media screen and (max-width:767px){

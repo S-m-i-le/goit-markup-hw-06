@@ -12,8 +12,13 @@
   .portfolio-card {
     background-color: #ffffff;
     width: calc((100% - 48px) / 3);
-    height: 420px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .image-portfolio{
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   .overlay {
     position: relative;
@@ -77,16 +82,23 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .foto{
-    width: 288px;
-    height: 280px; 
-  }
+  
   }
   /* ================== */
 
   /* TABLET version */
 
   @media screen and (min-width: 768px) and (max-width: 1157px) {
-
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap:72px 24px;
+    }
+    .portfolio-card { 
+      width:356px;
+      height: 420px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   /* ==================== */
