@@ -4,10 +4,11 @@
 @import "./header/header.css"; 
 
 @import "./sections/hero.css";
-@import"./sections/feature.css";
-@import"./sections/team.css";
-@import"./sections/portfolio.css";
+@import "./sections/feature.css";
+@import "./sections/team.css";
+@import "./sections/portfolio.css";
 
-@import"./sections/footer.css";
+@import "./footer/footer.css";
 
-@import "./mobile-window-menu/mobile-window-and-menu.css";
+@import "./modal-windows-and-menu/modal-windows-and-menu.css";
+

@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+   
   </head>
   <body>
 
@@ -61,7 +61,7 @@
           </ul>
         </address>
         <button class="button-burger">
-          <svg class="button-burger-icon"  width="24" height="24"aria-label="button-burger">
+          <svg class="button-burger-icon"  width="24" height="24" aria-label="button-burger">
             <use href="./images/icons.svg#icon-burger">
             </use>
           </svg>
@@ -437,10 +437,17 @@
             <li class="portfolio-card">
               <div class="overlay">
                 <img class="image-portfolio" 
-                  srcset="/images/portfolio/mobile/banking.jpg 288w,
-                  /images/portfolio/descop/banking.jpg 360w"
+                   srcset="/images/portfolio/mobile/banking.jpg 288w,
+                           /images/portfolio/mobile/banking@2.jpg 576w, 
+
+                           /images/portfolio/tablet/banking.jpg 356w,
+                           /images/portfolio/tablet/banking@2.jpg 712w,
+
+                           /images/portfolio/descop/banking.jpg 360w,
+                           /images/portfolio/descop/banking@2.jpg 720w"
+                           
                   sizes="(min-width: 1158px) 360px, 
-                         (min-width: 768px) 360px, 
+                         (min-width: 768px) 356px, 
                          (max-width: 767px) 288px"
                    
                   src="/images/portfolio/descop/banking.jpg"
@@ -462,13 +469,18 @@
             <li class="portfolio-card">
               <div class="overlay">
                 <img class="image-portfolio" 
-                srcset="
-                        /images/portfolio/mobile/payment.jpg 288w,
-                        /images/portfolio/descop/payment.jpg 360w
-                        "
+                srcset="/images/portfolio/mobile/payment.jpg 288w,
+                        /images/portfolio/mobile/payment@2.jpg 576w, 
+
+                        /images/portfolio/tablet/payment.jpg 356w,
+                        /images/portfolio/tablet/payment@2.jpg 712w,
+                
+                        /images/portfolio/descop/payment.jpg 360w,
+                        /images/portfolio/descop/payment@2.jpg 720w"
+                
                 sizes="
                        (min-width: 1158px) 360px, 
-                       (min-width: 768px) 360px, 
+                       (min-width: 768px) 356px, 
                        (max-width: 767px) 288px
                        "
                   src="/images/portfolio/descop/payment.jpg"
@@ -490,9 +502,16 @@
               <div class="overlay">
                 <img class="image-portfolio" 
                 srcset="/images/portfolio/mobile/meditation.jpg 288w,
-                /images/portfolio/descop/meditation.jpg 360w"
+                        /images/portfolio/mobile/meditation@2.jpg 576w, 
+
+                       /images/portfolio/tablet/meditation.jpg 356w,
+                       /images/portfolio/tablet/meditation@2.jpg 712w,
+        
+                       /images/portfolio/descop/meditation.jpg 360w,
+                       /images/portfolio/descop/meditation@2.jpg 720w"
+               
                 sizes="(min-width: 1158px) 360px, 
-                       (min-width: 768px) 360px, 
+                       (min-width: 768px) 356px, 
                        (max-width: 767px) 288px"
                   src="/images/portfolio/descop/meditation.jpg"
                   alt="Meditation App"
@@ -513,9 +532,16 @@
               <div class="overlay">
                 <img class="image-portfolio" 
                 srcset="/images/portfolio/mobile/taxi.jpg 288w,
-                /images/portfolio/descop/taxi.jpg 360w"
+                        /images/portfolio/mobile/taxi@2.jpg 576w, 
+
+                        /images/portfolio/tablet/taxi.jpg 356w,
+                        /images/portfolio/tablet/taxi@2.jpg 712w,
+
+                        /images/portfolio/descop/taxi.jpg 360w,
+                        /images/portfolio/descop/taxi@2.jpg 720w"
+                
                 sizes="(min-width: 1158px) 360px, 
-                       (min-width: 768px) 360px, 
+                       (min-width: 768px) 356px, 
                        (max-width: 767px) 288px"
                   src="/images/portfolio/descop/taxi.jpg"
                   alt="Taxi Service"
@@ -536,9 +562,16 @@
               <div class="overlay">
                 <img class="image-portfolio" 
                 srcset="/images/portfolio/mobile/screen.jpg 288w,
-                /images/portfolio/descop/screen.jpg 360w"
+                        /images/portfolio/mobile/screen@2.jpg 576w, 
+
+                        /images/portfolio/tablet/screen.jpg 356w,
+                        /images/portfolio/tablet/screen@2.jpg 712w,
+
+                        /images/portfolio/descop/screen.jpg 360w,
+                        /images/portfolio/descop/screen@2.jpg 720w"
+                
                 sizes="(min-width: 1158px) 360px, 
-                       (min-width: 768px) 360px, 
+                       (min-width: 768px) 356px, 
                        (max-width: 767px) 288px"
                   src="/images/portfolio/descop/screen.jpg"
                   alt="Screen Illustrations"
@@ -558,13 +591,18 @@
             <li class="portfolio-card">
               <div class="overlay">
                 <img class="image-portfolio" 
-                srcset="
-                        /images/portfolio/mobile/online.jpg 288w,
-                        /images/portfolio/descop/online.jpg 360w
-                        "
+                srcset="/images/portfolio/mobile/online.jpg 288w,
+                        /images/portfolio/mobile/online@2.jpg 576w, 
+
+                        /images/portfolio/tablet/online.jpg 356w,
+                        /images/portfolio/tablet/online@2.jpg 712w,
+
+                        /images/portfolio/descop/online.jpg 360w,
+                        /images/portfolio/descop/online@2.jpg 720w"
+               
                 sizes="
                        (min-width: 1158px) 360px, 
-                       (min-width: 768px) 360px, 
+                       (min-width: 768px) 356px, 
                        (max-width: 767px) 288px
                        "
                   src="/images/portfolio/descop/online.jpg"
@@ -685,8 +723,8 @@
 
     <!-- BACKDROP  -->
 
-    <!-- <div class="backdrop ">
-      <div class="modal-window">
+    <div class="backdrop">
+      <div class="modal-window ">
         <button class="button-close" type="button">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -779,11 +817,14 @@
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
+
+    <!-- ================================== -->
 
     <!-- MOBILE MENU -->
- 
-    <!-- <div class="mobile-menu is-open ">
+
+  <div class="backdrop-mobile-menu is-open ">
+    <div class="mobile-menu">
       <button class="button-close" type="button">
         <svg class="icon-close" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
@@ -817,7 +858,7 @@
         </ul>
       </address>
       <div class="mobile-social-media">
-        <ul class="social-media-list">
+        <ul class="social-media-list-modile">
           <li class="social-media-element">
             <a
               class="social-media-link"
@@ -872,105 +913,7 @@
           </li>
         </ul>
       </div>
-    </div>  -->
-    <!-- ---------------------------------------------- -->
-
-    <!-- MOBILE modal-window -->
-
-    <!-- <div class="modal-window mobile-window ">
-      <button class="button-close" type="button">
-        <svg class="icon-close" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
-      <p class="modal-window-p">
-        Leave your contacts and we will call you back
-      </p>
-      <form class="form" name="issue_report_form" autocomplete="off">
-        <div class="window-user">
-          <label for="user-name" class="form-label">Name</label>
-          <div class="div-input-icon">
-            <input
-              class="form-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              pattern="^[a-zA-Z]+$"
-              required
-              aria-label="human"
-            />
-            <svg class="icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-human"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="window-user">
-          <label class="form-label" for="user-phone">Phone</label>
-          <div class="div-input-icon">
-            <input
-              class="form-input"
-              type="text"
-              name="user-phone"
-              id="user-phone"
-              pattern="^[ 0-9 ( ) + -]+$"
-              required
-              aria-label="phone"
-            />
-            <svg class="icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="window-user">
-          <label class="form-label" for="user-email">Email</label>
-          <div class="div-input-icon">
-            <input
-              class="form-input"
-              type="text"
-              name="user-email"
-              id="user-email"
-              pattern="^[a-zA-Z 0-9 . ( ) + - @ ! # $ % & * ? /]+$"
-              required
-              aria-label="mail"
-            />
-            <svg class="icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-envelope"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="form-comment">
-          <label class="form-label" for="user-comment">Comment</label>
-          <textarea
-            class="form-textarea"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Text input"
-          ></textarea>
-        </div>
-          <div class="license-div">
-            <input
-              class="license-input visually-hidden"
-              id="user-privacy"
-              name="user-privacy"
-              type="checkbox"
-              value="true"
-              aria-label="click"
-            />
-            <label class="license-text" for="user-privacy">
-              <span class="license-span">
-                <svg class="click-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-click"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a class="license-a" href="">Privacy Policy</a>
-            </label>
-          </div>
-        
-
-        <button class="form-button" type="submit">Send</button>
-      </form>
-    </div>  -->
-    <!-- --------------------- -->
-  
+    </div> 
+  </div>  
   </body>
 </html>

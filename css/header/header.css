@@ -91,42 +91,41 @@
 .header-contakt:focus {
   color: #404bbf;
 }
-.button-burger{
+.button-burger {
   display: none;
 }
 /* ============================= */
 
 /* MOBILE version */
 
-@media screen and (max-width:767px){
-  .container{
+@media screen and (max-width: 767px) {
+  .container {
     padding-left: 16px;
     padding-right: 16px;
-   } 
-.mobile-header{
-  display: none;
-}
-.button-burger {
-  display:contents;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 0;
-  fill: #2f2f37;
-}
-
+  }
+  .mobile-header {
+    display: none;
+  }
+  .button-burger {
+    display: contents;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+    fill: #2f2f37;
+  }
 }
 /* ================ */
 
 /* TABLET version */
 
-@media screen and (max-width:1157px){
-  .container{
+@media screen and (max-width: 1157px) {
+  .container {
     padding-left: 16px;
     padding-right: 16px;
-   } 
-.tablet-address{
-  display: inline-block;
-}
+  }
+  .tablet-address {
+    display: inline-block;
+  }
 }
 /* ========================= */
