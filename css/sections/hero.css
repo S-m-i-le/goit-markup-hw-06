@@ -10,8 +10,6 @@
   padding-bottom: 188px;
   max-width: 100%;
   background-color: rgba(46, 47, 66, 0.7);
-<<<<<<< HEAD
-=======
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
@@ -29,7 +27,6 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)), url("../../images/hero/office-desktop@2.jpg");
   }
->>>>>>> 86a86ebc5a1e4a905f389e42daf997f68a53b7d9
 }
 .hero-tittle {
   max-width: 496px;
@@ -79,7 +76,6 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-<<<<<<< HEAD
       url('../../images/hero/office-desktop.jpg');
   }
   @media screen and (min-resolution: 192dpi),
@@ -93,8 +89,6 @@
         ),
         url('../../images/hero/office-desktop@2.jpg');
     }
-=======
-      url('../../images/hero/office-mobile.jpg');
   }
  
   @media screen and (min-resolution: 192dpi), 
@@ -107,7 +101,6 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ), url("../../images/hero/office-mobile@2.jpg");
->>>>>>> 86a86ebc5a1e4a905f389e42daf997f68a53b7d9
   }
   .container-hero {
     display: flex;
@@ -130,8 +123,6 @@
       ),
       url(../../images/hero/office-tablet.jpg);
   }
-
-<<<<<<< HEAD
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
@@ -143,7 +134,7 @@
         ),
         url('../../images/hero/office-tablet@2.jpg');
     }
-=======
+
   @media screen and (min-resolution: 192dpi), 
   screen and (min-resolution: 192dpi), 
   screen and (min-device-pixel-ratio:2)
@@ -154,7 +145,6 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ), url("../../images/hero/office-tablet@2.jpg");
->>>>>>> 86a86ebc5a1e4a905f389e42daf997f68a53b7d9
   }
   .container-hero {
     display: flex;
