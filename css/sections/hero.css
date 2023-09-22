@@ -166,10 +166,10 @@
   }
   .hero-tittle {
     font-size: 36px;
-    max-width: 288px;
-    max-width: 160px;
+    max-width: 215px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
   }
   .hero-button {
     margin-top: 72px;
