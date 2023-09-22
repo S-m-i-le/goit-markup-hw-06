@@ -68,21 +68,6 @@
   text-align: start;
 }
 
-/* MOBILE version */
-@media screen and (max-width: 767px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-  }
-  .portfolio-card {
-    width: 288px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-/* ================== */
-
 /* TABLET version */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
@@ -90,11 +75,27 @@
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
-  }
-  .portfolio-card {
-    width: 356px;
     margin-left: auto;
     margin-right: auto;
   }
+  .portfolio-card {
+    width: 356px;
+  }
 }
 /* ==================== */
+
+/* MOBILE version */
+@media screen and (max-width: 767px) {
+  .cards {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-card {
+    width: 288px;
+  }
+}
+/* ================== */

@@ -44,10 +44,5 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  /* Контейнер для всех элементов страницы*/
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+ 
   

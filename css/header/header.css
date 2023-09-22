@@ -1,13 +1,15 @@
 /*---- HEADER ----*/
-
+ 
 .navigation {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header-nav-address {
+.container-navigation{
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
+  
 }
 .header-nav {
   display: flex;
@@ -25,7 +27,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex-shrink: 0;
-  margin-right: 76px;
 }
 .logo-studio-header {
   color: #2e2f42;
@@ -92,40 +93,71 @@
   color: #404bbf;
 }
 .button-burger {
-  display: none;
+  display: contents;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+  fill: #2f2f37;
 }
+
 /* ============================= */
 
-/* MOBILE version */
 
-@media screen and (max-width: 767px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .mobile-header {
-    display: none;
-  }
+/*========= DESKTOP version ========= */
+
+@media screen and (min-width:1158px) {
+
   .button-burger {
-    display: contents;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    line-height: 0;
-    fill: #2f2f37;
+    display: none;
+  } 
+  .header-logo{
+    margin-right: 76px;
   }
 }
-/* ================ */
+
+/* ================================== */
 
 /* TABLET version */
 
 @media screen and (max-width: 1157px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
+
+  .button-burger {
+    display: none;
   }
-  .tablet-address {
-    display: inline-block;
+  .header-logo{
+    margin-right: 120px;
+  }
+  .header-address-tree {
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .header-contakt{
+    font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
   }
 }
 /* ========================= */
+
+
+/* MOBILE version */
+
+@media screen and (max-width: 767px) {
+  .container-navigation{
+    max-width: 320px;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+  .header-link-tree {
+    display: none;
+  }
+  .header-address-contakt {
+    display: none;
+  }
+  .button-burger {
+    display:contents;
+  }
+}
+/* ==================== */
