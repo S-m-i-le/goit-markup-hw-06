@@ -3,20 +3,20 @@
 .footer-page {
   background-color: #2e2f42;
   color: #ffffff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 98px;
+  padding-bottom: 96px;
 }
-.footer-page .container {
+/* .footer-page .container {
   display: flex;
   align-items: baseline;
-  justify-content: space-around;
-}
+} */
 
-.footer-text {
+/* .footer-text {
   display: inline-block;
   max-width: 264px;
   margin-right: 120px;
-}
+} */
+
 .footer-logo {
   font-weight: 700;
   font-family: Raleway, sans-serif;
@@ -25,15 +25,23 @@
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-left: 86px;
 }
 .logo-studio {
   color: #f4f4fd;
+}
+.footer-text{
+  margin-bottom: 72px;
 }
 .footer-p {
   margin-top: 16px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
+ 
+} 
+.social-media{
+ text-align: center;
 }
 .social-media-tittle {
   font-weight: 500;
@@ -45,8 +53,10 @@
 .social-media-list {
   display: flex;
   gap: 16px;
-  width: 100%;
+  width:208px;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .social-media-link {
   display: flex;
@@ -75,9 +85,9 @@
 
 /* ----FOOTER-EMAIL------ */
 
-.footer-email-form {
-  display: flex;
-  gap: 24px;
+.footer-email {
+  text-align: center;
+  margin-top: 72px;
 }
 .email {
   width: 264px;
@@ -117,6 +127,9 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 8px 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
 }
 .footer-button-icon {
   margin-left: 16px;
@@ -124,13 +137,50 @@
 }
 /* ------------------------------- */
 
+/* DESKTOP version */
+@media screen and (min-width: 1158px){
+  .footer-page{
+    padding-top: 100px;
+  padding-bottom: 100px;
+  }
+  .footer-page .container {
+    display: flex;
+    align-items: baseline;
+  }
+.social-media{
+  text-align:left;
+  margin-right: 80px;
+}
+.footer-email-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-text {
+  display: inline-block;
+  max-width: 264px;
+  margin-right: 120px;
+  margin-bottom: 0;
+  
+}
+.footer-logo {
+  margin-left: 0;
+}
+.footer-p {
+  margin-bottom: 0;
+}
+.footer-email {
+  text-align: left;
+  margin-top: 0;
+}
+.button{
+  margin-top: 0;
+}
+}
+/* ====================== */
+
 /* TABLET version */
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .footer-page {
-    padding-top: 98px;
-    padding-bottom: 96px;
-  }
-
+  
   .footer-page .container {
     max-width: 584px;
     display: flex;
@@ -139,68 +189,31 @@
     justify-content: flex-start;
   }
   .footer-text {
+    display: inline-block;
+    max-width: 264px;
     margin-right: 0;
-    /* margin-bottom: 72px; */
+    margin-bottom: 0;
   }
+  
+.footer-email-form {
+  display: flex;
+  gap: 24px;
 }
-/* =================================== */
-
-/* MOBILE version */
-
-@media screen and (max-width: 767px) {
-  .footer-page {
-    padding-top: 98px;
-    padding-bottom: 96px;
-  }
-
-  .footer-page .container {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .footer-text {
-    display: block;
-    max-width: 288px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    margin-bottom: 72px;
-  }
-  .footer-p {
-    text-align: left;
-  }
-
-  .social-media {
-    margin-right: 0;
-  }
-  .social-media-tittle {
-    margin-right: 0;
-    margin-bottom: 16px;
-    text-align: center;
-  }
-  .subscribe-text {
-    text-align: center;
-    margin-top: 72px;
-  }
-  .social-media-list {
-    justify-content: center;
-    gap: 16px;
-  }
-  .email {
-    width: 288px;
-  }
-  .footer-email-form {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  .footer-email-label {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .button {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.footer-logo {
+  margin-left: 0;
 }
-/* ==================================== */
+.footer-p {
+  margin-bottom: 0;
+}
+.social-media{
+  text-align:left;
+}
+.footer-email {
+  text-align: left;
+  margin-top: 0;
+}
+.button{
+margin-top: 0;
+}
+}
+/* =============================== */

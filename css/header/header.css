@@ -1,15 +1,14 @@
 /*---- HEADER ----*/
- 
+
 .navigation {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.container-navigation{
+.container-navigation {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
-  
 }
 .header-nav {
   display: flex;
@@ -59,7 +58,7 @@
   width: 100%;
   height: 4px;
   background-color: #404bbf;
-  content: "";
+  content: '';
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -103,15 +102,18 @@
 
 /* ============================= */
 
-
 /*========= DESKTOP version ========= */
 
-@media screen and (min-width:1158px) {
-
+@media screen and (min-width: 1158px) {
+  .container-navigation {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .button-burger {
     display: none;
-  } 
-  .header-logo{
+  }
+  .header-logo {
     margin-right: 76px;
   }
 }
@@ -121,34 +123,39 @@
 /* TABLET version */
 
 @media screen and (max-width: 1157px) {
-
+  .container-navigation {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .button-burger {
     display: none;
   }
-  .header-logo{
+  .header-logo {
     margin-right: 120px;
   }
   .header-address-tree {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 12px;
   }
-  .header-contakt{
+  .header-contakt {
     font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.04em;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
   }
 }
 /* ========================= */
 
-
 /* MOBILE version */
 
 @media screen and (max-width: 767px) {
-  .container-navigation{
+  .container-navigation {
     max-width: 320px;
     margin-left: auto;
-    margin-right:auto ;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .header-link-tree {
     display: none;
@@ -157,7 +164,7 @@ letter-spacing: 0.04em;
     display: none;
   }
   .button-burger {
-    display:contents;
+    display: contents;
   }
 }
 /* ==================== */
