@@ -227,7 +227,7 @@ input:focus + .icon {
 
 /* ============================ */
 
-/* Mobile version */
+/* DESKTOP and TABLET version */
 
 @media screen and (min-width: 768px) {
   .modal-window {
@@ -267,6 +267,8 @@ input:focus + .icon {
   }
 
   .mobile-menu {
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -333,7 +335,6 @@ input:focus + .icon {
   }
 
   .mobile-address {
-    margin-top:168px;
     margin-bottom: 48px;
   }
   .mobile-address-tree {
