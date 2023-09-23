@@ -230,6 +230,7 @@ input:focus + .icon {
 @media screen and (max-width: 767px) {
   .modal-window {
     width: 288px;
+   padding: 24px 16px 24px16px;
   }
 }
 /* ==================================== */
