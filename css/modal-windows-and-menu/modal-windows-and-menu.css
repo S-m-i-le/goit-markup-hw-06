@@ -339,17 +339,17 @@ input:focus + .icon {
     gap: 24px;
   }
   .contacts {
-    color: #434455;
+     color: #4d5ae5;
     font-style: normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     text-transform: inherit;
   }
-  .contacts:hover,
+/*   .contacts:hover,
   .contacts:focus {
     color: #4d5ae5;
-  }
+  } */
 
   .social-media-list-modile {
     display: flex;
