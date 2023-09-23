@@ -314,7 +314,7 @@ input:focus + .icon {
     fill: #ffffff;
   }
 .nav-address-soc{
-    displey:flex;
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
 }
