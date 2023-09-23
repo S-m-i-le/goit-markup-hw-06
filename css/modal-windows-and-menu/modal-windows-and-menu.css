@@ -276,7 +276,6 @@ input:focus + .icon {
     height: 100%;
     background-color: #fff;
     color:#2E2F42;
-   
     padding: 72px 24px 40px 16px;
   }
   .button-close {
@@ -315,7 +314,7 @@ input:focus + .icon {
     fill: #ffffff;
   }
 .nav-address-soc{
-  displey:flex;
+    displey:flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -362,7 +361,7 @@ input:focus + .icon {
   .social-media-list-modile {
     display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content:flex-start;
   }
   .social-media-link {
     display: flex;
