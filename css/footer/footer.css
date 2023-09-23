@@ -53,8 +53,8 @@
 .social-media-list {
   display: flex;
   gap: 16px;
-  width:208px;
-  height: 100%;
+  /* width:208px;
+  height: 100%; */
   margin-left: auto;
   margin-right: auto;
 }
