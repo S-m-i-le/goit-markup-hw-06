@@ -276,8 +276,7 @@ input:focus + .icon {
     height: 100%;
     background-color: #fff;
     color:#2E2F42;
-     flex-direction: column;
-    justify-content: space-between;
+   
     padding: 72px 24px 40px 16px;
   }
   .button-close {
@@ -315,7 +314,11 @@ input:focus + .icon {
   .button-close:focus .icon-close {
     fill: #ffffff;
   }
-
+.nav-address-soc{
+  displey:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
   .mobile-link-tree {
     display: flex;
     flex-direction: column;
