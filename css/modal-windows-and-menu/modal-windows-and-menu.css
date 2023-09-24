@@ -192,6 +192,7 @@ input:focus + .icon {
   font-size: 12px;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
+  margin-left: 24px;
 }
 .license-a:hover,
 .license-a:focus {
@@ -232,6 +233,9 @@ input:focus + .icon {
   .modal-window {
     min-width: 408px;
     padding: 72px 24px 24px 24px;
+  }
+  .license-a {
+    margin-left: 0;
   }
 }
 /* ==================================== */
