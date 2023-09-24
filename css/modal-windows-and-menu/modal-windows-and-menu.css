@@ -338,6 +338,10 @@ input:focus + .icon {
     color: #404bbf;
   }
 
+  .mobile-link.studio {
+    color: #404bbf;
+  }
+
   .mobile-address {
     margin-bottom: 48px;
   }
@@ -347,12 +351,14 @@ input:focus + .icon {
     gap: 24px;
   }
   .contacts {
-    color: #4d5ae5;
     font-style: normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     text-transform: inherit;
+  }
+  .tel {
+    color: #4d5ae5;
   }
 
   .social-media-list-modile {
